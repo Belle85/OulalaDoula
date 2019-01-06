@@ -1,0 +1,367 @@
+/*!
+ * Start Bootstrap - Business Casual v5.0.0 (https://startbootstrap.com/template-overviews/business-casual)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+
+ @font-face {
+  font-family: AgustineScript;
+  src: url(../fonts/AgustineScript.otf);
+}
+
+@font-face {
+  font-family: Lato-Hairline;
+  src: url(../fonts/Lato-Hairline.ttf);
+}
+
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+
+
+
+body {
+  font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
+  background: linear-gradient(rgba(47, 23, 15, 0.65));
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#roundLogo {
+  height: 600px;
+  width: 815px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'AgustineScript';
+}
+
+p {
+  line-height: 1.75;
+  font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
+
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.site-heading {
+  /* margin-top: 5rem;
+  margin-bottom: 5rem; */
+  /* text-transform: uppercase; */
+  line-height: 1;
+  font-family: 'Raleway';
+}
+
+.site-heading .site-heading-upper {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.site-heading .site-heading-lower {
+  font-size: 5rem;
+  font-weight: 100;
+  line-height: 4rem;
+}
+
+.page-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* .section-heading {
+  text-transform: uppercase;
+} */
+
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+#mainNav {
+  background-color:#ffef78;
+}
+
+#mainNav .navbar-brand {
+  color:#ed911f;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color:#ed911f;
+  font-weight: 800;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+  color:#ed911f;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+    font-family: Lato-Bold
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #feca6a;
+  }
+  #mainNav .navbar-nav .nav-item.active .nav-link:hover nav-link-footer:hover {
+    color:#feca6a; 
+  }
+}
+
+.btn-xl {
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.intro {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .intro .intro-img {
+    width: 75%;
+    float: right;
+  }
+  .intro .intro-text {
+    left: 0;
+    width: 60%;
+    margin-top: 3rem;
+    position: absolute;
+    font-size: 13px;
+  }
+  .intro .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro .intro-text {
+    width: 45%;
+    font-size: 16px;
+  }
+}
+
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(230, 167, 86, 0.9);
+}
+
+.cta .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.cta .cta-inner:before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+}
+
+@media (min-width: 992px) {
+  .about-heading .about-heading-img {
+    position: relative;
+    z-index: 0;
+  }
+  .about-heading .about-heading-content {
+    margin-top: -5rem;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  .product-item .product-item-title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -3rem;
+  }
+  .product-item .product-item-img {
+    position: relative;
+    z-index: 0;
+    max-width: 60vw;
+  }
+  .product-item .product-item-description {
+    position: relative;
+    z-index: 1;
+    margin-top: -3rem;
+    max-width: 50vw;
+  }
+}
+
+.list-hours {
+  font-size: 0.9rem;
+}
+
+.list-hours .list-hours-item {
+  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+  padding-bottom: .25rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.list-hours .list-hours-item.today {
+  font-weight: bold;
+  color: #e6a756;
+}
+
+@media (min-width: 992px) {
+  .list-hours {
+    width: 50%;
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 992px){
+.mb-lg-0, .my-lg-0 {
+    margin-bottom: 1rem!important;
+}
+}
+
+.myBlockquotes{
+  font-style: italic;
+  color: #ed911f;
+}
+
+#blockquoteFooter{
+  font-size: 10px
+}
+
+#photoPromise{
+  border-radius: 50%;
+  height: 150px;
+  margin-bottom: 25px
+}
+
+.address strong {
+  font-size: 1.2rem;
+}
+
+.footer {
+  background-color:#ffef78;
+}
+
+.text-primary {
+  color: red!important;
+}
+
+.bg-primary {
+  background-color: #e6a756 !important;
+}
+
+.btn {
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+  box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+}
+
+.btn-primary {
+  background-color: #e6a756;
+  border-color: #e6a756;
+  font-family: 'Lato-Hairline', Arial, Helvetica, sans-serif;
+  letter-spacing: 1px
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #f8b96b;
+  border-color: #ed911f;
+  font-family: 'Lato-Hairline', Arial, Helvetica, sans-serif;
+  letter-spacing: 1px
+}
+
+.font-weight-light {
+  font-weight: 100 !important;
+}
+
+/* Footer */
+/* .footer{
+  padding-bottom: 0px;
+} */
+
+#main-footer{
+  background:#d2b7b7;
+  font-family: 'Lato-Hairline', Arial, Helvetica, sans-serif;
+}
+
+#logofooter{
+  margin:auto;
+  margin-top: 50px;
+  display: block;
+  height: 180px;
+}
+
+#footerContactInfo,
+#footerMenu,
+list-inline-item{
+  margin:auto;
+  color:black;
+  text-align: center;
+  line-height: 16px;
+  font-family: 'Lato-Bold';
+}
+.myInfo{
+  font-family: 'Lato-Regular' Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height:10px;
+  letter-spacing: 3px;
+}
+
+#socialMedia{
+  margin:10px;
+  color:black;
+ 
+}
+
+#copyright{
+  margin: 10px auto 10px auto; 
+  text-align: center;
+  color:black;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  font-size: 10px;
+}
+
+#footerMenu{
+  margin-top: 20px;
+}
+
+
