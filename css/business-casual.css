@@ -28,7 +28,8 @@
 
 body {
   font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
-  background: linear-gradient(rgba(47, 23, 15, 0.65));
+  background: -webkit-gradient(linear, left top, left bottom), url("../img/bg.jpg");
+  background: linear-gradient , url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -37,6 +38,11 @@ body {
 #roundLogo {
   height: 600px;
   width: 815px;
+}
+
+#LogoPrincipal {
+  height: 40px;
+  width: 40px;
 }
 
 h1,
