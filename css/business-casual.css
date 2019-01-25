@@ -359,7 +359,6 @@ list-inline-item{
   margin: 10px auto 10px auto; 
   text-align: center;
   color:black;
-  margin-top: 60px;
   margin-bottom: 0px;
   padding-bottom: 5px;
   font-size: 10px;
@@ -369,4 +368,19 @@ list-inline-item{
   margin-top: 20px;
 }
 
+#support{
+  background-color: rgba(230, 167, 86, 0.9);
+  border: 10px white double;
+  padding: 25px;
+  border-radius: 0.5rem;
+}
+
+.labordoulapckge{
+  font-size: 12px;
+}
+
+.offeringspricing{
+  font-size: 20px;
+  color:#ed911f;
+}
 
