@@ -281,9 +281,9 @@ p {
   font-size: 1.2rem;
 }
 
-.footer {
+/* .footer {
   background-color:#ffef78;
-}
+} */
 
 .text-primary {
   color: red!important;
@@ -384,3 +384,6 @@ list-inline-item{
   color:#ed911f;
 }
 
+#recipebox{
+  float:right;
+}
