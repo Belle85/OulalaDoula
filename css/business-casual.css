@@ -333,7 +333,7 @@ p {
   height: 180px;
 }
 
-#footerContactInfo,
+#footerconnectInfo,
 #footerMenu,
 list-inline-item{
   margin:auto;
@@ -384,6 +384,6 @@ list-inline-item{
   color:#ed911f;
 }
 
-#recipebox{
-  float:right;
+#underlaborade{
+  margin-bottom: 100px;
 }
