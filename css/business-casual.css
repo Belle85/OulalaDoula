@@ -27,7 +27,6 @@
 
 
 body {
-  font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
   background: -webkit-gradient(linear, left top, left bottom), url("../img/bg.jpg");
   background: linear-gradient , url("../img/bg.jpg");
   background-attachment: fixed;
