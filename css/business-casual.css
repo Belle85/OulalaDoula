@@ -275,8 +275,16 @@ p {
   margin-bottom: 25px
 }
 
+#bellephoto2{
+  border-radius: 50%;
+  height: 400px;
+}
+
 .address strong {
   font-size: 1.2rem;
+}
+#aboutsignature{
+  margin-top: 25px;
 }
 
 
