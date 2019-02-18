@@ -3,7 +3,7 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
  */
-
+ 
  @font-face {
   font-family: AgustineScript;
   src: url(../fonts/AgustineScript.otf);
@@ -27,7 +27,7 @@
 
 
 body {
-  background: linear-gradient , url("../img/bg.jpg");
+  background: url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -287,8 +287,6 @@ p {
   margin-top: 25px;
 }
 
-
-
 .text-primary {
   color: red!important;
 }
@@ -320,10 +318,6 @@ p {
   font-weight: 100 !important;
 }
 
-/* Footer */
-/* .footer{
-  padding-bottom: 0px;
-} */
 
 #main-footer{
   background:#d2b7b7;
@@ -346,10 +340,11 @@ list-inline-item{
   line-height: 16px;
   font-family: 'Lato-Bold';
 }
+
 .myInfo{
   font-family: 'Lato-Regular' Arial, Helvetica, sans-serif;
   font-size: 14px;
-  line-height:10px;
+  line-height:20px;
   letter-spacing: 3px;
 }
 
