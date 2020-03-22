@@ -66,13 +66,15 @@ h6 {
   color:#b1a277;
   line-height: 1.75;
   font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
+}
 
+#duties{
+  text-align: center;
 }
 
 p {
     line-height: 1.75;
   font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
-
 }
 
 .text-faded {
