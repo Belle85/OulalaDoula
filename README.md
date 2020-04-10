@@ -3,7 +3,7 @@
 
 Website deployed with Google Cloud Platform using a Google Domain Name, G Suite Mail and Calendly as an embedded additional feature.
 
-Logo and content are property of Oulala Doula - Copyright 2017-2019.
+Logo and content are property of Oulala Doula - Copyright 2017-2020.
 
 Photographies used from ~ https://unsplash.com
 
